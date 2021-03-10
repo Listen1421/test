@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_2参数名ascii码从小到大排序_字典序_拼接</RootNamespace>
+  </PropertyGroup>
+
+</Project>
