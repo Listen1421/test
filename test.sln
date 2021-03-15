@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1获取当天起始结束�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2参数名ascii码从小到大排序(字典序)拼接", "2参数名ascii码从小到大排序(字典序)拼接\2参数名ascii码从小到大排序(字典序)拼接.csproj", "{B2816743-BFF3-4BE4-9F36-BE44CCD6DA53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3List按指定字段的给出的自定义顺序进行排序", "List按指定字段的给出的自定义顺序进行排序\3List按指定字段的给出的自定义顺序进行排序.csproj", "{13928D0E-2E2B-4DB6-B7D5-13433FEE272C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3List按指定字段的给出的自定义顺序进行排序", "List按指定字段的给出的自定义顺序进行排序\3List按指定字段的给出的自定义顺序进行排序.csproj", "{13928D0E-2E2B-4DB6-B7D5-13433FEE272C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{074A8083-32B4-4E43-904E-419D7500710A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{13928D0E-2E2B-4DB6-B7D5-13433FEE272C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13928D0E-2E2B-4DB6-B7D5-13433FEE272C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13928D0E-2E2B-4DB6-B7D5-13433FEE272C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074A8083-32B4-4E43-904E-419D7500710A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074A8083-32B4-4E43-904E-419D7500710A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074A8083-32B4-4E43-904E-419D7500710A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074A8083-32B4-4E43-904E-419D7500710A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
