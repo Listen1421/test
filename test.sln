@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2参数名ascii码从小到
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3List按指定字段的给出的自定义顺序进行排序", "List按指定字段的给出的自定义顺序进行排序\3List按指定字段的给出的自定义顺序进行排序.csproj", "{13928D0E-2E2B-4DB6-B7D5-13433FEE272C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{074A8083-32B4-4E43-904E-419D7500710A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{074A8083-32B4-4E43-904E-419D7500710A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "无权限页面", "无权限页面\无权限页面.csproj", "{AA5E05FF-AF99-4068-99E2-D03D7421848B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{074A8083-32B4-4E43-904E-419D7500710A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{074A8083-32B4-4E43-904E-419D7500710A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{074A8083-32B4-4E43-904E-419D7500710A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5E05FF-AF99-4068-99E2-D03D7421848B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5E05FF-AF99-4068-99E2-D03D7421848B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5E05FF-AF99-4068-99E2-D03D7421848B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5E05FF-AF99-4068-99E2-D03D7421848B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
