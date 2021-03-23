@@ -54,6 +54,50 @@ namespace Common
                 return true;
             }
         }
-
+        /// <summary>
+        /// 计算两个日期的时间间隔(d)
+        /// </summary>
+        /// <param name="DateTime1">第一个日期和时间</param>
+        /// <param name="DateTime2">第二个日期和时间</param>
+        /// <returns></returns>
+        public static int DateDiffOfDay(DateTime DateTime1, DateTime DateTime2)
+        {
+            int dateDiff = 0;
+            TimeSpan ts1 = new TimeSpan(DateTime1.Ticks);
+            TimeSpan ts2 = new TimeSpan(DateTime2.Ticks);
+            TimeSpan ts = ts1.Subtract(ts2).Duration();
+            dateDiff = (int)ts.Days;
+            return dateDiff;
+        }
+        /// <summary>
+        /// 计算两个日期的时间间隔(s)
+        /// </summary>
+        /// <param name="DateTime1">第一个日期和时间</param>
+        /// <param name="DateTime2">第二个日期和时间</param>
+        /// <returns></returns>
+        public static int DateDiffOfSeconds(DateTime DateTime1, DateTime DateTime2)
+        {
+            int dateDiff = 0;
+            TimeSpan ts1 = new TimeSpan(DateTime1.Ticks);
+            TimeSpan ts2 = new TimeSpan(DateTime2.Ticks);
+            TimeSpan ts = ts1.Subtract(ts2).Duration();
+            dateDiff = (int)ts.Milliseconds;
+            return dateDiff;
+        }
+        /// <summary>
+        /// 计算两个日期的时间间隔(m)
+        /// </summary>
+        /// <param name="DateTime1">第一个日期和时间</param>
+        /// <param name="DateTime2">第二个日期和时间</param>
+        /// <returns></returns>
+        public static int DateDiffOfMinutes(DateTime DateTime1, DateTime DateTime2)
+        {
+            int dateDiff = 0;
+            TimeSpan ts1 = new TimeSpan(DateTime1.Ticks);
+            TimeSpan ts2 = new TimeSpan(DateTime2.Ticks);
+            TimeSpan ts = ts1.Subtract(ts2).Duration();
+            dateDiff = (int)ts.Minutes;
+            return dateDiff;
+        }
     }
 }
