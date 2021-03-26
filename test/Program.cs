@@ -26,6 +26,9 @@ namespace test
             Console.WriteLine(b[1]);
             a[0] = "hi";
             b[1] = 42;
+
+
+
             Console.WriteLine(b[0]);
             Console.WriteLine(b[1]);
         }
