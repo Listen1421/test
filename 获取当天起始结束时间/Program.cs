@@ -16,6 +16,10 @@ namespace 获取当天起始结束时间
             Console.WriteLine(date);
             var endtime = (int)date.Subtract(Convert.ToDateTime(end)).TotalSeconds;
             Console.WriteLine(endtime);
+
+
+            var edate = Convert.ToDateTime(DateTime.Now.ToString("D").ToString()).AddDays(-10);
+            DateTime s = Convert.ToDateTime(DateTime.Now.ToString("D").ToString()).AddSeconds(-1);
         }
     }
 }

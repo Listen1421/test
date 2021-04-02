@@ -21,8 +21,8 @@ namespace SuperForm
 
         // You must specify the startup url here.
         //必须在此处指定启动url。
-        public override string StartUrl { get; } = @"C:\Users\Worker\Desktop\test.html";
-        //public override string StartUrl { get; } = "http://main.app.local/";
+        //public override string StartUrl { get; } = @"C:\Users\Worker\Desktop\test.html";
+        public override string StartUrl { get; } = "http://main.app.local/";
         //public override string StartUrl { get; } = "http://localhost:3000"; // For development purpose
 
         private KisokModeForm kisokModeForm;
