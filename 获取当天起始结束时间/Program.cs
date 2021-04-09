@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common;
+using System;
 
 namespace 获取当天起始结束时间
 {
@@ -20,6 +21,9 @@ namespace 获取当天起始结束时间
 
             var edate = Convert.ToDateTime(DateTime.Now.ToString("D").ToString()).AddDays(-10);
             DateTime s = Convert.ToDateTime(DateTime.Now.ToString("D").ToString()).AddSeconds(-1);
+
+            DateTime kingClickTime = Convert.ToDateTime("2021-4-9 11:09:00");
+            var seconds = TimeCalculation.DateDiffOfSeconds(kingClickTime, DateTime.Now);
         }
     }
 }

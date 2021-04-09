@@ -81,7 +81,7 @@ namespace Common
             TimeSpan ts1 = new TimeSpan(DateTime1.Ticks);
             TimeSpan ts2 = new TimeSpan(DateTime2.Ticks);
             TimeSpan ts = ts1.Subtract(ts2).Duration();
-            dateDiff = (int)ts.Milliseconds;
+            dateDiff = (int)ts.TotalSeconds;
             return dateDiff;
         }
         /// <summary>
@@ -96,7 +96,7 @@ namespace Common
             TimeSpan ts1 = new TimeSpan(DateTime1.Ticks);
             TimeSpan ts2 = new TimeSpan(DateTime2.Ticks);
             TimeSpan ts = ts1.Subtract(ts2).Duration();
-            dateDiff = (int)ts.Minutes;
+            dateDiff = (int)ts.TotalMinutes;
             return dateDiff;
         }
     }
